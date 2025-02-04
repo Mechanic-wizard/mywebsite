@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: crosshair;
+}
+body {
+    background-color: #333;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body >main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 20%;
+}
+body main > .CST > p{
+    display: flex;
+    color: yellow;
+}
